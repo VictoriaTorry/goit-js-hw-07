@@ -18,6 +18,7 @@ galleryEl.innerHTML = arrayOfMarkup.join("");
 const gallery = new SimpleLightbox(".gallery__item a", {
   captionDelay: 250,
   captionsData: "alt",
+  captionPosition: 'bottom', 
 });
 
 gallery.on("show.simplelightbox");
